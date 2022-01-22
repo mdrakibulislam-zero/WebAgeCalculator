@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color: #e0e5ec;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+.container h1 {
+    color: rgba(34, 48, 74);
+    font-size: 40px;
+    text-align: center;
+}
+.container input {
+    padding: 8px 4px;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 5px;
+    margin-left: 255px;
+    height: 100%;
+    border-color: rgba(0, 0, 0, .1);
+    width: 400px;
+}
+.container .input button {
+    color: #e0e5ec;
+    background: #929cd0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px 15px;
+    border: none;
+    box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #f2f3f5;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+.container .input button:hover {
+    background-color: #6a89cc;
+    cursor: pointer;
+}
+.container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container ul li {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(34, 48, 74);
+}
+.container ul li span {
+    border-radius: 10px;
+    background: #929cd0;
+    text-align: center;
+    display: block;
+    color: #e0e5ec;
+    font-size: 30px;
+    width: 150px;
+    height: 80px;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
